@@ -16,7 +16,7 @@ This project is a simple yet engaging number guessing game built with JavaScript
 
 ## Demonstration
 
-<p><img align="center" src="https://github.com/kmdebug/js-guess-game/blob/master/demo.mp4" alt="guess game demonstration"  height="500" /></p>
+<p><img align="center" src="https://github.com/kmdebug/js-guess-game/blob/master/demo.gif"  height="500" /></p>
 
 ## Features
 
