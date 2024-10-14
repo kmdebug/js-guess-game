@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="h-full grid place-content-center gap-6 text-center tracking-tight">
+        <h1 class=" text-2xl font-medium">Welcome to the Great Number Game!</h1>
+
+        <div class="flex flex-col gap-3">
+            <p>I am thinking of a number between 1 and 100</p>
+
+            <p>Take a guess!</p>
+        </div>
+
+        <div class="hidden"></div>
+
+        <form>
+            <input type="number"
+                class="rounded placeholder:text-xs py-0.5 px-2.5 shadow-[inset_0_0_0_1px_rgba(15,15,15,0.1)] mt-1 mb-2 border-none outline-none focus:outline-none focus:ring-2 focus:border-blue-500 focus:ring-blue-500 block mx-auto w-24"
+                min="1" max="100" required />
+            <button type="submit"
+                class="text-white bg-blue-500 hover:bg-blue-600 focus:ring-2 focus:outline-none focus:ring-blue-300 font-medium rounded text-[13.5px] sm:w-auto px-3 py-1 text-center">Submit</button>
+        </form>
+    </div>
+
+
+    <script src="../src/index.js"></script>
+</body>
+
+</html>
